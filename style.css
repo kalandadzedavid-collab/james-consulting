@@ -115,6 +115,7 @@ main .about-us {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: 70px;
 }
 main .about-us .overlay {
   background-color: rgba(216, 232, 242, 0.911);
@@ -146,4 +147,87 @@ main .about-us .overlay button {
 main .about-us .overlay button:hover {
   background-color: rgb(12, 60, 96);
   color: white;
+}
+main .our-services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+main .our-services h2 {
+  font-size: 36px;
+  letter-spacing: 1.8px;
+  color: rgb(12, 60, 96);
+}
+main .our-services .examples {
+  display: flex;
+  gap: 40px;
+}
+main .our-services .examples img {
+  width: 255px;
+}
+main .our-services .examples .example {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .our-services .examples .example span {
+  color: #3f3f3f;
+}
+main .our-services button {
+  background-color: transparent;
+  border: 1px solid #072136;
+  padding: 12px 24px;
+  color: rgb(12, 60, 96);
+}
+main .our-services button:hover {
+  background-color: rgb(12, 60, 96);
+  color: white;
+}
+main .clients {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 150px;
+}
+main .clients h2 {
+  color: rgb(12, 60, 96);
+  font-size: 36px;
+  letter-spacing: 1.8px;
+}
+main .clients .logos {
+  display: flex;
+  gap: 250px;
+}
+main .testimonials {
+  height: 651px;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+main .testimonials h3 {
+  font-size: 36px;
+  letter-spacing: 1.8px;
+  color: rgb(7, 33, 54);
+}
+main .testimonials p {
+  max-width: 465px;
+  color: rgb(7, 33, 54);
+}
+main .testimonials div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .testimonials div p {
+  color: rgb(12, 60, 96);
+}
+main .testimonials div span {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

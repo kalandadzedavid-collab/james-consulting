@@ -1,9 +1,4 @@
-$PrimaryColor: rgb(12, 60, 96);
-$DarkText: rgb(7, 33, 54);
-$WhiteText: white;
-$BasicColor: #f7f7f7;
-$DarkBlue: #072136;
-$lightblue: rgba(216, 232, 242, 0.911);
+@import "./global";
 
 @mixin align-center {
   display: flex;
@@ -140,6 +135,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin-bottom: 70px;
 
     .overlay {
       background-color: $lightblue;
@@ -165,6 +161,90 @@ main {
         @include button();
         width: 181px;
         height: 55px;
+      }
+    }
+  }
+
+  .our-services {
+    @include align-center();
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+
+    h2 {
+      font-size: 36px;
+      letter-spacing: 1.8px;
+      color: $PrimaryColor;
+    }
+
+    .examples {
+      display: flex;
+      gap: 40px;
+
+      img {
+        width: 255px;
+      }
+
+      .example {
+        @include column();
+        gap: 20px;
+
+        span {
+          color: #3f3f3f;
+        }
+      }
+    }
+    button {
+      @include button();
+    }
+  }
+
+  .clients {
+    @include align-center();
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 150px;
+
+    h2 {
+      color: $PrimaryColor;
+      font-size: 36px;
+      letter-spacing: 1.8px;
+    }
+
+    .logos {
+      display: flex;
+      gap: 250px;
+    }
+  }
+
+  .testimonials {
+    height: 651px;
+    background-color: $BasicColor;
+    @include align-center();
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+
+    h3 {
+      font-size: 36px;
+      letter-spacing: 1.8px;
+      color: rgb(7, 33, 54);
+    }
+
+    p {
+      max-width: 465px;
+      color: rgb(7, 33, 54);
+    }
+
+    div {
+      @include column();
+      gap: 10px;
+      p {
+        color: $PrimaryColor;
+      }
+      span {
+        color: #000;
       }
     }
   }
