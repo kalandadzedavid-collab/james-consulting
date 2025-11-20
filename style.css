@@ -39,6 +39,17 @@ header nav .login {
   gap: 15px;
 }
 
+main .chat {
+  padding: 15px;
+  border: 0;
+  background-color: rgb(12, 60, 96);
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+main .chat:hover {
+  cursor: pointer;
+}
 main .main-bckg {
   height: 700px;
   background-image: url(https://static.wixstatic.com/media/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.jpg/v1/fill/w_1656,h_784,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.jpg);
@@ -230,4 +241,8 @@ main .testimonials div p {
 }
 main .testimonials div span {
   color: #000;
+}
+main .map {
+  padding: 50px 500px 50px 500px;
+  background-color: rgb(12, 60, 96);
 }/*# sourceMappingURL=style.css.map */

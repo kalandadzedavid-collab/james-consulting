@@ -65,6 +65,18 @@ header {
 }
 
 main {
+  .chat {
+    padding: 15px;
+    border: 0;
+    background-color: $PrimaryColor;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    &:hover {
+      cursor: pointer;
+    }
+
+  }
   .main-bckg {
     height: 700px;
     background-image: url(https://static.wixstatic.com/media/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.jpg/v1/fill/w_1656,h_784,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.jpg);
@@ -247,5 +259,10 @@ main {
         color: #000;
       }
     }
+  }
+
+  .map {
+    padding: 50px 500px 50px 500px;
+    background-color: $PrimaryColor;
   }
 }
